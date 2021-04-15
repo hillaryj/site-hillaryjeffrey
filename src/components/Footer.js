@@ -84,7 +84,7 @@ const FooterWrapper = styled.footer`
 `
 
 const Footer = () => {
-  const { authorName, websiteHost, footerLinks } = useSiteMetadata()
+  const { authorName, websiteHost, websiteCover, footerLinks } = useSiteMetadata()
 
   const FooterItem = ({ item }) => {
     if (item.url.startsWith('/')) {
@@ -152,6 +152,13 @@ const Footer = () => {
             by{' '}
             <a className="footer-link" href={websiteHost.url}>
               {websiteHost.name}
+            </a>
+            .
+          </p>
+          <p className="footer-item-text">
+            Cover art by {' '}
+            <a className="footer-link" href={websiteCover.url}>
+              {websiteCover.name}
             </a>
             .
           </p>

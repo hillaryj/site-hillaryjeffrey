@@ -24,6 +24,10 @@ const useSiteMetadata = () => {
             name
             url
           }
+          websiteCover {
+            name
+            url
+          }
           footerLinks {
             sectionName
             links {

@@ -9,7 +9,11 @@ module.exports = {
   siteUrl: 'https://www.hillaryjeffrey.com/',
   // Prefixes all links. For cases when deployed to maxpou.fr/gatsby-starter-morning-dew/
   // pathPrefix: '/hillaryjeffrey', // Note: it must *not* have a trailing slash.
-  siteCover: 'concert-lighting.png', // file in content/images
+  siteCover: 'pexels-miriam-espacio-110854.jpg', // file in content/images
+  websiteCover: {
+    name: 'Miriam Espacio',
+    url: 'https://www.pexels.com/photo/blue-pink-and-white-andromeda-galaxy-way-110854/',
+  },
   background_color: '#ffffff',
   theme_color: '#463591',
   display: 'standalone',
